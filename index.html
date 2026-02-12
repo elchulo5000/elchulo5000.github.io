@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Elchulo_5000 | Redes</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: linear-gradient(135deg, #000000, #18181b);
+      color: white;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 20px;
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 2rem;
+      margin-bottom: 10px;
+    }
+
+    p {
+      text-align: center;
+      color: #a1a1aa;
+      margin-bottom: 30px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 20px;
+      width: 100%;
+      max-width: 500px;
+    }
+
+    @media (min-width: 600px) {
+      .grid {
+        grid-template-columns: 1fr 1fr;
+        max-width: 800px;
+      }
+    }
+
+    .card {
+      background: #111827;
+      border-radius: 20px;
+      padding: 20px;
+      text-align: center;
+      transition: transform 0.2s ease;
+    }
+
+    .card:hover {
+      transform: scale(1.05);
+    }
+
+    .card img {
+      width: 60px;
+      height: 60px;
+      margin-bottom: 10px;
+    }
+
+    .card h2 {
+      margin: 10px 0;
+    }
+
+    .card p {
+      font-size: 0.9rem;
+      margin-bottom: 15px;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 12px 20px;
+      background: white;
+      color: black;
+      text-decoration: none;
+      border-radius: 10px;
+      font-weight: bold;
+      transition: 0.2s;
+    }
+
+    .btn:hover {
+      opacity: 0.8;
+    }
+
+    footer {
+      margin-top: 40px;
+      font-size: 0.8rem;
+      color: #71717a;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>¡Seguime trolita! 😈</h1>
+  <p>fijate donde te metes ñeri</p>
+
+  <div class="grid">
+
+    <div class="card">
+      <img src="https://cdn.simpleicons.org/youtube/FF0000" alt="YouTube">
+      <h2>YouTube</h2>
+      <p>No subo casi nada.</p>
+      <a class="btn" href="https://www.youtube.com/@Elchulo_5000" target="_blank">Ir a YouTube</a>
+    </div>
+
+    <div class="card">
+      <img src="https://cdn.simpleicons.org/instagram/E4405F" alt="Instagram">
+      <h2>Instagram</h2>
+      <a class="btn" href="https://www.instagram.com/lio.priv09/" target="_blank">Ir a Instagram</a>
+    </div>
+
+    <div class="card">
+      <img src="https://cdn.simpleicons.org/whatsapp/25D366" alt="WhatsApp">
+      <h2>WhatsApp</h2>
+      <p>Noticias o avisos.</p>
+      <a class="btn" href="https://www.whatsapp.com/channel/0029VanfvGtIt5rqER7pfl0w" target="_blank">Unirme</a>
+    </div>
+
+    <div class="card">
+      <img src="https://cdn.simpleicons.org/discord/5865F2" alt="Discord">
+      <h2>Discord</h2>
+      <p>Comunidad muerta, revivanla 😢</p>
+      <a class="btn" href="https://discord.gg/e22aNKdQWT" target="_blank">Entrar</a>
+    </div>
+
+  </div>
+
+  <footer>
+    © 2026 Elchulo_5000
+  </footer>
+
+</body>
+</html>
